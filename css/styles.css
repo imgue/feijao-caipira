@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* Geral */
+* {
+    font-family: "IBM Plex Sans", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #ece7de;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: alkaline, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 150px;
+    line-height: 150px;
+}
+
+h2 {
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    color: #AF9979;
+}
+
+h3 {
+    font-family: alkaline-caps, sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+b {
+    font-weight: 600;
+}
+
+span, ul, li {
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a, a:hover {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+/* feijao-01 */
+.fj-navbar {
+    padding: 50px 150px;
+    background: linear-gradient(180deg, #AF9979 0%, #b9ae9a 96%);
+}
+
+.fj-navbar img {
+    width: 15%;
+}
+
+.fj-navbar-mobile {
+    display: none;
+    padding: 50px 0;
+    background: linear-gradient(180deg, #AF9979 0%, #b9ae9a 96%);
+}
+
+.fj-navbar-mobile img {
+    width: 200px;
+}
+
+#fjhv:hover {
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.fj-redes {
+    padding: 12px 30px;
+    background-color: #96846899;
+    border-radius: 8px;
+    border: 1px solid rgba(242, 242, 242, 0.3);
+    letter-spacing: 3px;
+}
+
+.fj-redes img {
+    width: 30px;
+}
+
+.fj-01 {
+    color: #2A3573;
+    height: 90vh;
+    background: url(/assets/images/fj-01.webp) center bottom / cover no-repeat;
+}
+
+.fj-01 span {
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 39.79px;
+    color: #2A3573;
+}
+
+/* feijao-02 */
+.fj-02 {
+    height: 100vh;
+    background: url(/assets/images/fj-historia.webp) center bottom / cover no-repeat;
+}
+
+.fj-02 p {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 40px;
+    color: #4E4E4E;
+}
+
+.historia {
+    padding: 50px 0;
+}
+
+/* feijao-03 */
+.fj-03 h2 {
+    font-size: 120px;
+}
+
+.tipo {
+    font-size: 58px !important;
+    font-weight: 100;
+    line-height: 42.96px;
+    letter-spacing: 6.43px;
+}
+
+.shapetxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.produtos {
+    margin: 0 40px 100px 0;
+}
+
+.produtos img {
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.produtos img:hover {
+    transform: scale(1.03); 
+    transition: transform 0.3s;
+}
+
+/* feijao-04 */
+.fj-04 {
+    height: 100vh;
+    background-color: #2A3573 !important;
+    background: url(/assets/images/fj-caminhao.webp) center bottom / cover no-repeat;
+}
+
+.fj-04 p {
+    font-size: 33px;
+    font-weight: 200;
+    line-height: 55.70px;
+    color: #f2f2f2;
+}
+
+.fj-04 b {
+    font-weight: 500;
+}
+
+.fj-04 img {
+    width: 1100px;
+}
+/* feijao-04 */
+
+/* feijao-05 */
+.fj-05 {
+    background: url(/assets/images/fj-historia.webp) center bottom / cover no-repeat;
+}
+
+.fj-05 h2 {
+    font-size: 135px;
+}
+
+.fj-05 p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* Footer */
+footer {
+    margin: 200px 0 0 0;
+    background-color: #2A3573 !important;
+    background: url(/assets/images/fj-caminhao.webp) center bottom / cover no-repeat;
+}
+
+.foot {
+    padding: 150px 0 0;
+}
+
+.border-icon {
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid #AF9979;
+}
+
+.foot p {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.foot h1 {
+    font-size: 60px;
+}
+
+.foot h5 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.foot h4 {
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 300;
+}
+
+.foot b {
+    font-weight: 500;
+}
+
+.rdp, .rdp a {
+    color: #4d5dbd !important;
+    font-size: 29.73px;
+    font-weight: 500;
+    line-height: 48.31px;
+    letter-spacing: 0.59px;
+}
+
+.foot a:hover {
+    transform: scale(1.03); 
+    transition: transform 0.3s;
+}
+
+.border-right {
+    border-right: 1px solid #AF9979;
+    max-height: 400px;
+    margin-bottom: 100px;
+}
+
+/* Loader */
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #dfcdb3;
+    animation: slideUp 1s ease-out forwards;
+    z-index: 9999;
+}
+
+@keyframes slideUp {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 0%;
+    }
+}
+
+.loader:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background: #ece5d6;
+    transition: opacity 1s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.loader:after {
+    opacity: 1;
+}
+
+.loader.hidden + .content {
+    display: block;
+}
+
+/* Produtos */
+
+.produto-box {
+    background-color: #2A3573;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.produto-box h2 {
+    color: #ece7de;
+}
+
+.produto-box p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+    color: #ece7de;
+}
+
+.produto-box h5 {
+    letter-spacing: 5px;
+    margin: -30px 0 10px;
+    color: rgba(241, 224, 193, 0.8);
+}
+
+.produto-img {
+    width: 80%;
+}
+
+.produto-tabela {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Receitas */
+
+.receita-box {
+    background-color: rgba(175, 153, 121, 0.9);
+    padding: 100px;
+    border-radius: 30px;
+}
+
+.receita-box h2 {
+    color: #ece7de;
+}
+
+.receita-box h1 {
+    color: #ece7de;
+    font-size: 60.15px;
+    font-weight: 500;
+    margin: 50px 0 0;
+    line-height: 0px;
+}
+
+.receita-box p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+    color: #ece7de;
+}
+
+.receita-box h5 {
+    letter-spacing: 5px;
+    margin: -30px 0 10px;
+    color: rgba(241, 224, 193, 0.8);
+}
+
+.receita-img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.receita-tabela {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.receita-box iframe {
+    width: 100%;
+    height: 800px;
+    padding: 20px;
+    border-radius: 100px;
+    margin-top: 50px;
+    background-color: #AF9979;
+}
+
+.receitas-bg {
+    background: url(/assets/images/fj-historia.webp) center bottom / cover no-repeat;
+}
+
+.receitas {
+    margin-top: 100px;
+}
+
+.receitas img:hover {
+    transform: scale(1.03); 
+    transition: transform 0.3s;
+}
+
+.receitas img {
+    transition: transform 0.3s;
+    width: 300px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .navbar {
+        display: none;
+    }
+
+    .fj-navbar-mobile {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 118px !important;
+        line-height: 100px !important;
+    }
+    
+    h2 {
+        font-size: 100px !important;
+    }
+    
+    h3, h4, h5, h6, p, span, ul, li, a {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .tipo {
+        font-size: 40px !important;
+    }
+
+    .fj-03 svg {
+        display: none;
+    }
+
+    .fj-03 {
+        margin-top: 100px;
+    }
+
+    .produtos img {
+        width: 300px;
+    }
+
+    .fj-04 img {
+        width: 500px;
+    }
+
+    .fj-04 {
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .fj-01 {
+        background: url(/assets/images/fj-01-mobile.webp) center bottom / cover no-repeat;
+    }
+
+    .produto-box {
+        padding: 50px 5px;
+    }
+
+    .receita-box {
+        text-align: left;
+        padding: 50px 15px;
+    }
+
+    .receita-box h1 {
+        font-size: 70px !important;
+    }
+
+    .foot-mobile {
+        padding: 400px 0 0;
+    }
+}
